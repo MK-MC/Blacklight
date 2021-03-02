@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="WTFPL"
+[[mods]]
+modId="blacklight"
+version="${file.jarVersion}"
+displayName="Blacklight"
+description='''
+Lights up the void below y=62.
+'''
+[[dependencies.blacklight]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[36,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.blacklight]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.16.5,1.17)"
+    ordering = "NONE"
+    side = "BOTH"

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "org.mkmc.blacklight.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "aether.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
